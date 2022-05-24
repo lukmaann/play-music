@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  background-color: black;
+  height: 60px;
+  color: aliceblue;
+  align-items: center;
+}
+nav ul li {
+  padding: 0px 10px;
+}
+.brand img {
+  width: 33px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.cointainer {
+  font-family: "Ubuntu", sans-serif;
+  min-height: 60vh;
+  color: white;
+  background-color: black;
+  margin: 20px auto;
+  width: 72%;
+  display: flex;
+  border-radius: 13px;
+  padding: 20px;
+  background-image: url("images/bdg.jpg");
+  justify-content: space-between;
+}
+
+.bottom {
+  background-color: black;
+  height: 130px;
+
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  bottom: 0;
+}
+.icons {
+  margin: 20px;
+}
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+.firstBox {
+  position: static;
+}
+.songItems {
+  background-color: antiquewhite;
+  color: black;
+  height: 35px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 12px 0;
+  padding-right: 8px;
+}
+
+.songItemCointainer {
+  margin-top: 50px;
+}
+.songItems img {
+  width: 25px;
+  border-radius: 4px;
+  margin: 0 18px;
+}
+.timeSpan {
+  margin: 0 0 0 20px;
+  display: flex;
+}
+.timeSpan i {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.songListPlay {
+  margin: 6px;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  /* margin: 29px 0 0 180px; */
+  font-family: "Roboto", sans-serif;
+
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songBanner{
+    background-color: aliceblue;
+    align-items: center;
+
+    
+}
+.foot{
+  text-align: center;
+  
+  color:grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;;
+
+  
+}
